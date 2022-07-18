@@ -1,0 +1,83 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    margin-bottom:20px;
+    border-radius: 50%;
+   }
+h4{
+    margin-top: 30px;
+    
+}
+.heading{
+    background-color: lightblue;
+    margin-top:0px;
+}
+.heading h3{
+    margin-top: 0px;
+    padding-top: 30px;
+}
+.activity-container{
+    display: flex;
+    justify-content: space-around; 
+    margin-top: 80px;
+}
+.activity{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.activity h4,p{
+    width: 70%;
+}
+.intro{
+    background-image: url(https://media.istockphoto.com/photos/atakule-city-tower-from-capital-ankara-picture-id1134645260?b=1&k=20&m=1134645260&s=170667a&w=0&h=KSZHp2wRG8XmICQirYeCcA_KMQjSZ8Q-yXwAk_GW9J8=);
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    color: #f8f9fa;    
+    margin-bottom: 0;   
+}
+.intro h1,h2{
+    text-shadow: 0px 0px 2px black;
+}
+
+.guide{
+    display: flex;
+    background-image: linear-gradient(red,blue);
+    width: 50%;
+    margin-top: 80px;
+    padding: 30px;
+    margin-right: auto;
+    margin-left:auto;
+    margin-bottom: 50px;
+    align-items: center;
+    justify-content: space-between;
+    color: whitesmoke;
+    border-bottom:5px solid black;
+}
+
+
+.guide-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
